@@ -7,8 +7,8 @@
 /* GLOBAL STYLES */
 
 :root {
-  --font-primary: 'KoHo', sans-serif;
-  --font-secondary: 'Jura', sans-serif;
+  --font-primary: 'Jura', sans-serif;
+  --font-secondary: 'KoHo', sans-serif;
   --font-code: 'Share Tech', sans-serif;
   --bg-color: #0071b5;
   --bg-color-transparent: #00163f80;
