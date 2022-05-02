@@ -21,7 +21,7 @@
 
 body {
   /*background-color: var(--bg-color);*/
-  background-image: linear-gradient(to bottom left, #0071b5, #FFFFFF);
+  background-image: linear-gradient(to bottom left, #0071b5, #0071b5, #0071b5, #FFFFFF);
   display: flex;
   flex-flow: column;
   height: 100vh;
