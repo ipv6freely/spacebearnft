@@ -20,7 +20,8 @@
 }
 
 body {
-  background-color: var(--bg-color);
+  /*background-color: var(--bg-color);*/
+  background-image: linear-gradient(to bottom left, red, yellow);
   display: flex;
   flex-flow: column;
   height: 100vh;
