@@ -351,10 +351,11 @@ section {
 
 /* SB */
 #spacebearBackground {
-  background: url('images/sb-background.png');
+  display: block;
+  background-image: url('images/sb-background.png');
+  background-repeat: no-repeat;
   width: 1159px;
   height: 1701px; 
-  no-repeat;
   position: absolute;
   left: 0px;
   bottom: 0px;
