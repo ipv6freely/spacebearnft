@@ -349,6 +349,17 @@ section {
   transform: translate(-50%, -50%) scale(3);
 }
 
+/* SB */
+#spacebearBackground {
+  background: url('images/sb-background.png');
+  width: 1159px;
+  height: 1701px; 
+  no-repeat;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 768px) {
