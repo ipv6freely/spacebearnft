@@ -108,7 +108,7 @@ header .container {
 
 .btn {
   display: inline-block;
-  padding: 2rem 2rem;
+  padding: 1rem 2rem;
   background: var(--btn-bg-color);
   color: var(--accent-color);
   font-family: var(--font-secondary);
@@ -133,7 +133,7 @@ header .container {
 
 .wallet-btn {
   border-radius: 5rem;
-  margin-left: 2rem;
+  /*margin-left: 0rem;*/
   border-color: transparent;
 }
 
