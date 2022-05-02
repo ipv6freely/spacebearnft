@@ -383,6 +383,14 @@ section {
   }
 }
 
+.spacebear {
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  top: 30%;
+  left:  30%;
+}
+
 /* UTILITIES */
 
 .hidden {
