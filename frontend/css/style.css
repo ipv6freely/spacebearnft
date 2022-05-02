@@ -32,6 +32,15 @@ body {
   font-family: var(--font-primary);
 }
 
+#SBBackground {
+  position: fixed;
+  width: 1159px;
+  height: 1701px;
+  bottom: 0px;
+  left: 0px;
+  background-image: url("images/sb-background.png");
+}
+
 .container {
   display: flex;
   flex-direction: column;
