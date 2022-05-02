@@ -40,10 +40,10 @@ body {
 
 /* HEADER */
 
-header {
+/*header {
   background-color: var(--bg-color);
   box-shadow: var(--header-shadow);
-}
+}*/
 
 header .container {
   flex-direction: row;
