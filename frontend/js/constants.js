@@ -2,8 +2,8 @@ const contractAddress = "0xEb561eDCD7b54aC24451f5361c3A915a283cE9cD"; //Replace 
 const chain = 'rinkeby'; // rinkeby or polygon
 
 const welcome_h1 = "Welcome";
-const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = 'The Space Bear NFT Project is awesome!!';
+const welcome_h2 = "The Space Bear NFT Project is awesome!!";
+const welcome_p = "Connect to MetaMask to Get Started";
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";
