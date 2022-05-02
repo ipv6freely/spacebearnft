@@ -387,8 +387,8 @@ section {
   height: 500px;
   width: 500px;
   position: absolute;
-  top: 30%;
-  left:  30%;
+  bottom: 0px;  
+  left: 0px;
 }
 
 /* UTILITIES */
