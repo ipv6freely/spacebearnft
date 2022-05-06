@@ -53,16 +53,12 @@
 
       @media all and (min-width: 800px) {
 
-        .flexOrder1 { order:1; }
-        .flexOrder2 { order:2; }
+        .flexOrder1 { order:1; max-width: 40vh; }
+        .flexOrder2 { order:2; max-width: 60vh; }
 
       }
 
       #mainWindow {
-        max-width: 60vh;
-      }
-
-      #mainWindow div {
         background-color: #f00;
       }
 
@@ -88,6 +84,11 @@
       </div>
     </section>
 
+    <section class="flexOrder2" id="sbLogo">
+    <div>
+      <img class="spacebear" src="images/sb-background.png" />
+    </div>
+    </section>
 
 
 <!--     <section class="container not-connected">
