@@ -49,6 +49,7 @@ window.addEventListener("DOMContentLoaded", async () => {
 const updateConnectStatus = async () => {
   const onboarding = new MetaMaskOnboarding();
   const onboardButton = document.getElementById("connectWallet");
+  const onboardLogo = document.getElementById("metamaskLogo");
   const notConnected = document.querySelector('.not-connected');
   const spinner = document.getElementById("spinner");
   if (!MetaMaskOnboarding.isMetaMaskInstalled()) {
@@ -75,6 +76,7 @@ const updateConnectStatus = async () => {
     loadInfo();
   } else {
     onboardButton.innerText = "Connect MetaMask!";
+    onboardLogo.innetText = "balls";
     // HIDE SPINNER
     spinner.classList.add('hidden');
     notConnected.classList.remove('hidden');

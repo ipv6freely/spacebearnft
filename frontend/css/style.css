@@ -100,7 +100,7 @@ header .container {
 
 .btn {
   display: inline-block;
-  padding: 0;
+  padding: 1rem 2rem;
   background: var(--btn-bg-color);
   color: var(--accent-color);
   font-family: var(--font-secondary);
@@ -229,7 +229,7 @@ section {
 }
 
 
-#logo-container svg {
+#metamaskLogo svg {
   width: 50px;
   height: auto;
 }
