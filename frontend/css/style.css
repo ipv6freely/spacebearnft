@@ -229,10 +229,15 @@ section {
 }
 
 
-#logo-container svg {
+.metamasklogo svg {
   width: 150px;
   height: auto;
 }
+
+/*#logo-container svg {
+  width: 150px;
+  height: auto;
+}*/
 
 /*@media only screen and (max-width: 768px) {
   #logo-container svg {
