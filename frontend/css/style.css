@@ -229,7 +229,8 @@ section {
 }
 
 
-#connectWallet svg {
+#connectWallet {
+  display: inline-block;
   width: 150px;
   height: auto;
 }
