@@ -229,6 +229,11 @@ section {
 }
 
 
+#connectWallet svg {
+  width: 150px;
+  height: auto;
+}
+
 .metamasklogo svg {
   width: 150px;
   height: auto;
