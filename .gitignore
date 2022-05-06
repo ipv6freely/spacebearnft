@@ -144,5 +144,9 @@ dist
 .DS_Store
 
 build*
+
 # Local Netlify folder
 .netlify
+
+# Layers
+backend/layers*
