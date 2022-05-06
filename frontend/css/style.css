@@ -36,7 +36,7 @@ body {
   margin: 0 auto 0 20%;
   padding: 1rem 2rem;
   justify-content: center;
-  /*overflow: hidden;*/
+  overflow: hidden;
 }
 
 /* HEADER */
@@ -46,17 +46,17 @@ body {
   box-shadow: var(--header-shadow);
 }*/
 
-/*header .container {
+header .container {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-}*/
+}
 
-/*.menu {
+.menu {
   display: flex;
   gap: 2rem;
   align-items: center;
-}*/
+}
 
 /* NOT CONNECTED */
 .not-connected {
@@ -232,6 +232,7 @@ section {
 #metamaskLogo svg {
   width: 8rem;
   height: auto;
+  /*margin: 2rem 0;*/
 }
 
 /*@media only screen and (max-width: 768px) {
