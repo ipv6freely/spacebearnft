@@ -17,6 +17,50 @@
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Temporary Inline Styles -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&family=KoHo:wght@200;700&family=Share+Tech&display=swap');
+
+      :root {
+        --font-primary: 'Jura', sans-serif;
+        --font-secondary: 'KoHo', sans-serif;
+        --font-code: 'Share Tech', sans-serif;
+        --bg: linear-gradient(to bottom left, #0071b5, 80%, #FFFFFF);;
+        --bg-color: #0071b5;
+        --bg-color-transparent: #0071b580;
+        --font-color: #ffffff;
+        --btn-bg-color: #ffffff;
+        --accent-color: #333333;
+        --header-shadow: var(--accent-color) 0px 0px 5px;
+        --card-shadow: var(--accent-color) 0px 0px 20px;
+      }
+
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-image: var(--bg);
+        display: flex;
+        flex-flow: column;
+        height: 100vh; /* 100% of the height of the viewport */
+        color: var(--font-color);
+        font-family: var(--font-primary);
+      }
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        max-width: 960px;
+        margin: 0 0 0 50%;
+        padding: 1rem 2rem;
+        justify-content: center;
+        overflow: hidden;
+      }
+    </style>
   </head>
   <body>
     <section class="container not-connected">
