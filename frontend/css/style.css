@@ -33,10 +33,10 @@ body {
   display: flex;
   flex-direction: column;
   max-width: 960px;
-  margin: 0 auto 0 20%;
+  /*margin: 0 auto 0 20%;*/
   padding: 1rem 2rem;
   justify-content: center;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 /* HEADER */
