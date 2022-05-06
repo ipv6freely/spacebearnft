@@ -66,27 +66,30 @@
 
       @media all and (min-width: 800px) {
 
-        .sbLogo { order:1; max-width: 60vw; }
-        .flexOrder2 { order:2; max-width: 40vw; }
-
+      #sbLogoWrapper { 
+        order:1; 
+        max-width: 60vw;
+        max-height: 100vh;
       }
 
       #sbLogo {
-        width: 100%;
-        height: 100%;
-      }
-
-      #sbLogo div {
         background-image: url("images/sb-background.png");
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-position: bottom left;
       }
 
+      #mainWrapper { 
+        order:2; 
+        max-width: 40vw; 
+        max-height: 100vh;
+      }
+
       #mainWindow {
         background-color: #f00;
         width: 100%;
         height: 100%;
+        justify-content: center;
       }
 
 /*      .container {
@@ -103,14 +106,14 @@
   </head>
   <body>
 
-    <section class="sbLogo"><div id=sbLogo></div>
+    <section id="sbLogoWrapper"><div id=sbLogo></div>
 <!--     <div>
       <img class="spacebear" src="images/sb-background.png" />
     </div> -->
     </section>
 
-    <section class="flexOrder2" id="mainWindow">
-      <div>
+    <section id="mainWrapper">
+      <div id="mainWindow">
         <h1 id="welcomeH1">Heading 1</h1>
         <h2 id="welcomeH2">Heading 2</h2>
         <p id="welcomeP">Welcome Paragraph</p>
