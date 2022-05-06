@@ -51,6 +51,21 @@
         font-family: var(--font-primary);
       }
 
+      @media all and (min-width: 800px) {
+
+        .flexOrder1 { order:1; }
+        .flexOrder2 { order:2; }
+
+      }
+
+      #mainWindow {
+        max-width: 60vh;
+      }
+
+      #mainWindow div {
+        background-color: #f00;
+      }
+
       .container {
         display: flex;
         flex-direction: column;
@@ -64,13 +79,24 @@
     </style>
   </head>
   <body>
-    <section class="container not-connected">
+
+    <section class="flexOrder1" id="mainWindow">
       <div>
         <h1 id="welcomeH1">Heading 1</h1>
         <h2 id="welcomeH2">Heading 2</h2>
         <p id="welcomeP">Welcome Paragraph</p>
       </div>
     </section>
+
+
+
+<!--     <section class="container not-connected">
+      <div>
+        <h1 id="welcomeH1">Heading 1</h1>
+        <h2 id="welcomeH2">Heading 2</h2>
+        <p id="welcomeP">Welcome Paragraph</p>
+      </div>
+    </section> -->
 
 
     <!-- <div id="spinner" class="dot-elastic"></div> -->
