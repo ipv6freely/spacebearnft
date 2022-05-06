@@ -82,6 +82,18 @@
 
       } /* end min-width 800px */
 
+      #foo {
+        background-color: tomato;
+        width: 100%;
+        height: 100%;
+      }
+
+      #bar {
+        background-color: mediumblue;
+        width: 100%;
+        height: 100%;
+      }
+
       #mainWindow {
         background-color: tomato;
         width: 100%;
@@ -110,13 +122,16 @@
   </head>
   <body>
 
-    <section id="sbLogoWrapper"><!-- <div id=sbLogo></div> -->
+    <section id="sbLogoWrapper">
+      <div id="foo"></div>
+      <!-- <div id=sbLogo></div> -->
 <!--     <div>
       <img class="spacebear" src="images/sb-background.png" />
     </div> -->
     </section>
 
     <section id="mainWrapper">
+      <div id="bar"></div>
 <!--       <div id="mainWindow">
         <h1 id="welcomeH1">Heading 1</h1>
         <h2 id="welcomeH2">Heading 2</h2>
