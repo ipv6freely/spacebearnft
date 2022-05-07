@@ -141,29 +141,6 @@ a {
   transform: translateY(0);
 }
 
-/*.not-connected h1 {
-  text-shadow: 2px 2px 0 var(--accent-color);
-  text-transform: uppercase;
-  font-size: 4.5rem;
-}
-
-.not-connected h2 {
-  font-size: 2.5rem;
-}
-
-.not-connected p {
-  font-size: 1.1rem;
-  font-family: var(--font-secondary);
-  line-height: 1.8;
-}
-
-.not-connected a {
-  text-decoration: none;
-  color: var(--accent-color);
-  font-size: 1.5rem;
-  font-weight: bold;
-}*/
-
 .card {
   position: relative;
   opacity: 0;
@@ -186,7 +163,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #0000ff50;
+  background: #00000050;
 }
 
 .countdown ul {
