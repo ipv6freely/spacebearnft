@@ -24,19 +24,6 @@ window.addEventListener("DOMContentLoaded", async () => {
     });
   }
 
-  // const splide = new Splide(".splide", {
-  //   type: "loop",
-  //   arrows: false,
-  //   perMove: 3,
-  //   pagination: false,
-  //   autoplay: true,
-  //   direction: 'ttb',
-  //   height: "calc(100vh - 90px)",
-  //   width: '30vw',
-  //   autoHeight: true,
-  // });
-  // splide.mount();
-
   updateConnectStatus();
   if (MetaMaskOnboarding.isMetaMaskInstalled()) {
     window.ethereum.on("accountsChanged", (newAccounts) => {
@@ -63,7 +50,8 @@ const updateConnectStatus = async () => {
       notConnected.classList.add('show-not-connected');
     };
   } else if (accounts && accounts.length > 0) {
-    onboardButton.innerText = `✔ ...${accounts[0].slice(-4)}`;
+    // onboardButton.innerText = `✔ ...${accounts[0].slice(-4)}`;
+    onboardButton.innerText = `✔ ${accounts[0]}`;
     window.address = accounts[0];
     onboardButton.disabled = true;
     onboarding.stopOnboarding();
