@@ -100,6 +100,10 @@ body {
   width: 15rem;
 }
 
+.hidden {
+  display: none;
+}
+
 .not-connected {
   opacity: 0;
   transform: translateY(10vh);
