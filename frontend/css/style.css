@@ -100,7 +100,7 @@ body {
   width: 15rem;
 }
 
-/*.not-connected {
+.not-connected {
   opacity: 0;
   transform: translateY(10vh);
   transition: all 0.5s ease-in-out;
@@ -109,7 +109,7 @@ body {
 .show-not-connected {
   opacity: 1;
   transform: translateY(0);
-}*/
+}
 
 .not-connected {
   width: 100%;
