@@ -83,7 +83,6 @@ body {
   text-shadow: 2px 2px 0 var(--accent-color);
   text-transform: uppercase;
   /*font-style: italic;*/
-  margin: 2rem 0;
   font-size: 3.5rem;
 }
 
