@@ -93,6 +93,13 @@ a {
   height: auto;
 }
 
+.dot-revolution {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(3);
+}
+
 .btn {
   display: inline-block;
   padding: 1rem 2rem;
