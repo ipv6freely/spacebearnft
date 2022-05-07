@@ -81,7 +81,6 @@ a {
 #mainWrapper { 
   order:2; 
   max-width: 60vw; 
-  /*background: #00000050;*/
   width: 100%;
   text-align: center;
   padding: 5rem 2rem;
@@ -140,7 +139,6 @@ a {
   opacity: 0;
   transform: translateY(10vh);
   transition: all 0.5s ease-in-out;
-  background: #ff000050;
 }
 
 .show-not-connected {
@@ -170,7 +168,6 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #00000050;
 }
 
 .countdown ul {
