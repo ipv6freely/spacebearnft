@@ -45,7 +45,7 @@ body {
 
 #sbLogoWrapper { 
   order:1; 
-  max-width: 45vw;
+  max-width: 40vw;
   width: 100%;
 }
 
@@ -55,7 +55,7 @@ body {
 
 #mainWrapper { 
   order:2; 
-  max-width: 55vw; 
+  max-width: 60vw; 
   /*background: #00000050;*/
   width: 100%;
   text-align: center;
