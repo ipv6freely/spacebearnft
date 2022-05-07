@@ -59,7 +59,6 @@ p {
   font-family: var(--font-secondary);
   font-size: 1.1rem;
   line-height: 1.8;
-  margin: 1rem;
 }
 
 a {
@@ -119,7 +118,7 @@ a {
   cursor: default;
 }
 
-.wallet-btn .hero-btn {
+.wallet-btn, .hero-btn {
   border-radius: 5rem;
   margin-top: 1rem;
   border-color: transparent;
