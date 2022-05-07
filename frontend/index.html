@@ -65,53 +65,19 @@
         font-family: var(--font-primary);
       }
 
-/*      @media all and (min-width: 0px) {
+      #sbLogoWrapper { 
+        order:1; 
+        max-width: 30vw;
+        background: green;
+      }
 
-        #sbLogoWrapper { 
-          order:2; 
-          max-width: 40vw;
-          background: green;
-        }
+      #mainWrapper { 
+        order:2; 
+        max-width: 50vw; 
+        background: mediumblue;
+      }
 
-        #mainWrapper { 
-          order:1; 
-          max-width: 60vw; 
-          background: mediumblue;
-        }
-
-      } /* end min-width 800px */
-
-      @media all and (min-width: 800px) {
-
-        #sbLogoWrapper { 
-          order:1; 
-          max-width: 30vw;
-          background: green;
-        }
-
-        #mainWrapper { 
-          order:2; 
-          max-width: 50vw; 
-          background: mediumblue;
-        }
-
-      } /* end min-width 800px */
-
-/*      #foo {
-        display: block;
-        width: 100%;
-        height: 100%;
-        background-image: url("images/sb-background.png");
-        background-attachment: fixed;
-        background-position: bottom left;
-        background-repeat: no-repeat;
-      }*/
-
-/*      #sbLogo {
-        width: 100%;
-      }*/
-
-      #sbLogo img {
+      #sbLogo {
         width: 100%;
         height: 100%;
       }
@@ -124,7 +90,7 @@
   <body>
 
     <section id="sbLogoWrapper">
-      <div id="sbLogo"><img src="images/sb-background.png" /></div>
+      <img id="sbLogo" src="images/sb-background.png" />
     </section>
 
     <section id="mainWrapper">
