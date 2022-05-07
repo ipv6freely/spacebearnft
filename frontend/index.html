@@ -55,21 +55,48 @@
         </div>
         <h2 id="subHeading">Pre-Sale Countdown</h2>
         <h1 id="mainHeading">Countdown Heading</h1>
-        <p id="mainText">
-          Countdown Paragraph Text
-        </p>
+        <p id="mainText">Countdown Paragraph Text</p>
         <a id="actionButton" href="https://discord.gg/M4Qrcm9ChR" target="_blank" rel="noopener noreferrer" class="hero-btn btn">
           <span>Discord Link Button</span>
         </a>
       </div>
       <!-- END COUNTDOWN SECTION -->
 
+      <!-- MINT CONTAINER DIV -->
+      <div id="mintContainer" class="mint-container hidden">
+        <div class="info-container">
+          <div>
+            <h3>Supply</h3>
+            <p id="totalSupply">100</p>
+          </div>
+          <div>
+            <h3>Price Per Mint</h3>
+            <p id="pricePerMint">1 ETH</p>
+          </div>
+          <div>
+            <h3>Max</h3>
+            <p id="maxPerMint">5 per wallet</p>
+          </div>
+        </div>
+        <div class="mint-qty">
+          <span>
+            <button class="input-number-decrement btn" id="mintDecrement">–</button>
+            <input id="mintInput" class="input-number btn" type="number" value="1" min="1" max="5" />
+            <button class="input-number-increment btn" id="mintIncrement">+</button>
+          </span>
+          <button id="setQtyMax" class="btn">SET MAX</button>
+        </div>
+        <div class="total-price-container">
+          <h3>Total</h3>
+          <p id="totalPrice">.001 ETH</p>
+        </div>
+        <button id="mintButton" class="hero-btn btn mint-btn">Mint</button>
+      </div>
+      <!-- END MINT CONTAINER DIV -->
+
 
       <div id="spinner" class="dot-revolution"></div>
     </section>
-
-    
-
     <script src="js/metamask-logo.js"></script>
     <script src="js/metamask-onboarding.bundle.js"></script>
     <script src="js/web3.min.js"></script>
