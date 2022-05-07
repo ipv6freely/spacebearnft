@@ -71,14 +71,12 @@
           order:2; 
           max-width: 40vw;
           background: green;
-          align-items: stretch;
         }
 
         #mainWrapper { 
           order:1; 
           max-width: 60vw; 
           background: mediumblue;
-          align-items: stretch;
         }
 
       } /* end min-width 800px */
@@ -89,20 +87,24 @@
           order:1; 
           max-width: 40vw;
           background: green;
-          flex: 1 1 auto;
         }
 
         #mainWrapper { 
           order:2; 
           max-width: 60vw; 
           background: mediumblue;
-          flex: 1 1 auto;
         }
 
       } /* end min-width 800px */
 
       #foo {
+        display: inline-block;
         width: 100%;
+        height: 100%;
+        background-image: url("images/sb-background.png");
+        background-attachment: fixed;
+        background-position: bottom left;
+        background-repeat: no-repeat;
       }
 
       #bar {
