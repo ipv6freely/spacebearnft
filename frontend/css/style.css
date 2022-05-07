@@ -63,6 +63,7 @@ body {
 }
 
 #metamaskLogo svg {
+  margin-top: 2rem;
   width: 8rem;
   height: auto;
 }
