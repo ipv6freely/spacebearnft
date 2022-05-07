@@ -37,7 +37,7 @@ body {
   background-image: var(--bg);
   display: flex;
   flex-flow: row;
-  align-items: stretch;
+  align-items: center;
   height: 100vh; /* 100% of the height of the viewport */
   color: var(--font-color);
   font-family: var(--font-primary);
