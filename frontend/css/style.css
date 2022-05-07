@@ -93,7 +93,7 @@ body {
   cursor: default;
 }
 
-.wallet-btn {
+.wallet-btn .hero-btn {
   border-radius: 5rem;
   margin-top: 1rem;
   border-color: transparent;
