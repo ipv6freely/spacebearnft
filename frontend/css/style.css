@@ -48,6 +48,7 @@ h1 {
   font-size: 4.5rem;
   text-shadow: 2px 2px 0 var(--accent-color);
   text-transform: uppercase;
+  color: #ff0000;
 }
 
 h2 {
