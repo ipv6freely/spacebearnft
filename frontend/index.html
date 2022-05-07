@@ -64,6 +64,22 @@
         font-family: var(--font-primary);
       }
 
+      @media all and (min-width: 0px) {
+
+        #sbLogoWrapper { 
+          order:2; 
+          max-width: 40vw;
+          background: green;
+        }
+
+        #mainWrapper { 
+          order:1; 
+          max-width: 60vw; 
+          background: mediumblue;
+        }
+
+      } /* end min-width 800px */
+
       @media all and (min-width: 800px) {
 
         #sbLogoWrapper { 
