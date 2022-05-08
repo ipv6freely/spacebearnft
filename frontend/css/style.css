@@ -101,8 +101,6 @@ a {
 
 .dot-revolution {
   position: relative;
-  /*top: 50%;*/
-  /*left: 50%;*/
   transform: translate(-50%, -50%) scale(3);
 }
 
@@ -227,7 +225,6 @@ a {
   justify-content: space-between;
   width: 100%;
   text-align: center;
-  margin-bottom: 2rem;
 }
 
 .mint-qty {
