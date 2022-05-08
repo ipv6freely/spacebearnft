@@ -125,7 +125,7 @@ a {
   cursor: default;
 }
 
-.wallet-btn, .hero-btn {
+.wallet-btn, .hero-btn, #setQtyMax {
   border-radius: 2rem;
   margin-top: 1rem;
   border-color: transparent;
@@ -234,8 +234,7 @@ a {
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  /*background-color: var(--accent-color);*/
-  background-color: #ff0000;
+  background-color: var(--accent-color);
   border-radius: 5px;
 }
 
