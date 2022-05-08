@@ -256,8 +256,8 @@ a {
 }
 
 .total-price-container {
-  display: flex;
-  justify-content: space-between;
+/*  display: flex;
+  justify-content: space-between;*/
   width: 100%;
-  padding: 1rem 0 2rem;
+  padding: 0;
 }
