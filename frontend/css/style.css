@@ -219,7 +219,8 @@ a {
 #mintContainer {
   background-color: #ff000050;
   width: 100%;
-  margin-top: 2rem;
+  margin-top: 1rem;
+  text-align: center;
 }
 
 .mint-container {
