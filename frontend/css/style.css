@@ -125,7 +125,7 @@ a {
   cursor: default;
 }
 
-.wallet-btn, .hero-btn, #setQtyMax {
+.wallet-btn, .hero-btn {
   border-radius: 2rem;
   margin-top: 1rem;
   border-color: transparent;
@@ -242,7 +242,9 @@ a {
   display: flex;
 }
 
-.input-number {
+.input-number, 
+.input-number-decrement, 
+.input-number-increment {
   height: 100%;
   padding: 1rem;
   vertical-align: top;
