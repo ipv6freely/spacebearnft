@@ -234,13 +234,14 @@ a {
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  background-color: var(--accent-color);
+  /*background-color: var(--accent-color);*/
+  background-color: #ff0000;
   border-radius: 5px;
 }
 
-/*.mint-qty > span {
+.mint-qty > span {
   display: flex;
-}*/
+}
 
 .input-number {
   height: 100%;
