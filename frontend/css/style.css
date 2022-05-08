@@ -216,17 +216,13 @@ a {
 }
 
 
-#mintContainer {
+.mint-container {
+  position: relative;
+  width: 100%;
   background-color: #ff000050;
   width: 100%;
   margin-top: 1rem;
   text-align: center;
-}
-
-.mint-container {
-  position: relative;
-  width: 100%;
-
 
 /*  display: flex;
   flex-direction: column;
