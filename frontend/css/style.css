@@ -90,6 +90,7 @@ a {
   display: flex;
   flex-flow: column;
   align-items: center;
+  margin: auto 0;
 }
 
 #metamaskLogo svg {
