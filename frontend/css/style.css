@@ -163,6 +163,7 @@ a {
 #countdown {
   display: none;
   text-align: center;
+  background-color: #0000ff50;
 }
 
 .countdown {
@@ -207,7 +208,9 @@ a {
   border-radius: 0 0 4px 4px;
 }
 
-
+#mintContainer {
+  background-color: #ff000050;
+}
 
 .mint-container {
   width: 100%;
