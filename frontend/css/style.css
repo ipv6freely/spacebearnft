@@ -116,6 +116,7 @@ a {
   position: relative;
   text-decoration: none;
   outline: none;
+  user-select: none;
 }
 .btn:hover {
   box-shadow: none;
@@ -256,12 +257,6 @@ a {
   outline: none;
 }
 
-.input-number,
-.input-number-decrement,
-.input-number-increment {
-  user-select: none;
-}
-
 .total-price-container {
   display: flex;
   justify-content: space-between;
@@ -269,6 +264,6 @@ a {
   padding: 1rem 0 2rem;
 }
 
-.total-price-container p {
+/*.total-price-container p {
   color: var(--accent-color);
-}
+}*/
