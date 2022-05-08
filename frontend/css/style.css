@@ -217,9 +217,8 @@ a {
 
 .mint-container {
   position: relative;
-  width: 100%;
+  width: 80%;
   background-color: #ff000050;
-  width: 100%;
   margin-top: 1rem;
   text-align: center;
 
@@ -233,17 +232,13 @@ a {
 .info-container {
   display: flex;
   justify-content: space-between;
-  width: 80%;
+  width: 100%;
   text-align: center;
   margin-bottom: 2rem;
 }
 
-.info-container > div {
-  width: 33%;
-}
-
 .mint-qty {
-  width: 80%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -269,6 +264,6 @@ a {
 .total-price-container {
   display: flex;
   justify-content: space-between;
-  width: 80%;
+  width: 100%;
   padding: 0;
 }
