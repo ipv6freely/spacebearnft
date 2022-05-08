@@ -87,7 +87,7 @@ a {
   max-width: 57vw; 
   width: 100%;
   text-align: center;
-  /*display: flex;*/
+  display: flex;
   align-items: center;
 }
 
