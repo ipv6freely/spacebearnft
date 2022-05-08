@@ -238,16 +238,9 @@ a {
   border-radius: 5px;
 }
 
-.mint-qty > span {
+/*.mint-qty > span {
   display: flex;
-}
-
-.mint-btn {
-  display: flex;
-  align-items: center;
-  gap: 3rem;
-  margin: auto;
-}
+}*/
 
 .input-number {
   height: 100%;
@@ -263,7 +256,3 @@ a {
   width: 100%;
   padding: 1rem 0 2rem;
 }
-
-/*.total-price-container p {
-  color: var(--accent-color);
-}*/
