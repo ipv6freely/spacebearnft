@@ -139,7 +139,7 @@ a {
 .not-connected {
   opacity: 0;
   transform: translateY(10vh);
-  /*transition: all 0.5s ease-in-out;*/
+  transition: all 0.5s ease-in-out;
   width: 100%;
 }
 
@@ -152,7 +152,7 @@ a {
   position: relative;
   opacity: 0;
   transform: translateX(100vw);
-  /*transition: all 0.5s ease-in-out;*/
+  transition: all 0.5s ease-in-out;
   width: 100%;
 }
 
@@ -221,6 +221,7 @@ a {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  transition: all 0.5s ease-in-out;
 }
 
 .info-container {
