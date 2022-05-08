@@ -50,12 +50,13 @@ const PUBLIC_MINT_START_DATE = "2022-05-20T00:00:00+00:00"; // MAY 1, 2022 @ 7 A
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PRESALE_MINT_START_DATE = "2022-05-05T00:00:00+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
+// const PRESALE_MINT_START_DATE = "2022-05-09T00:00:00+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 1000; // (10%) Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0x3e1be0108feeaE4B8E7BbA46F92Fe9b7FA3eba8b"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
-const PRESALE_WHITELISTED_ADDRESSES = ["0xfA942EB9998f550F70ECD0Ce7C15104d032a7c24",]; // only update if you want to manually set the whitelisted addresses
-// const PRESALE_WHITELISTED_ADDRESSES = []; // only update if you want to manually set the whitelisted addresses
+// const PRESALE_WHITELISTED_ADDRESSES = ["0xfA942EB9998f550F70ECD0Ce7C15104d032a7c24",]; // only update if you want to manually set the whitelisted addresses
+const PRESALE_WHITELISTED_ADDRESSES = []; // only update if you want to manually set the whitelisted addresses
 // const PRESALE_WHITELISTED_ADDRESSES = ["0x3e1be0108feeaE4B8E7BbA46F92Fe9b7FA3eba8b",]; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
