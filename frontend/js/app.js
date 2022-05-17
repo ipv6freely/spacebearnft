@@ -304,11 +304,14 @@ async function mint() {
       if(mintTransaction) {
         if(chain === 'rinkeby') {
           const url = `https://rinkeby.etherscan.io/tx/${mintTransaction.transactionHash}`;
+          const mintContainer = document.querySelector('.mint-container');
           const mintedContainer = document.querySelector('.minted-container');
           const countdownContainer = document.querySelector('.countdown');
           const mintedTxnBtn = document.getElementById("mintedTxnBtn");
           mintedTxnBtn.href = url;
+          mintContainer.classList.add('hidden');
           countdownContainer.classList.add('hidden');
+          mintButton.classList.add('hidden');
           mintedContainer.classList.remove('hidden');
         }
         console.log("Minuted successfully!", `Transaction Hash: ${mintTransaction.transactionHash}`);
@@ -341,11 +344,14 @@ async function mint() {
       if(presaleMintTransaction) {
         if(chain === 'rinkeby') {
           const url = `https://rinkeby.etherscan.io/tx/${presaleMintTransaction.transactionHash}`;
+          const mintContainer = document.querySelector('.mint-container');
           const mintedContainer = document.querySelector('.minted-container');
           const countdownContainer = document.querySelector('.countdown');
           const mintedTxnBtn = document.getElementById("mintedTxnBtn");
           mintedTxnBtn.href = url;
+          mintContainer.classList.add('hidden');
           countdownContainer.classList.add('hidden');
+          mintButton.classList.add('hidden');
           mintedContainer.classList.remove('hidden');
         }
         console.log("Minuted successfully!", `Transaction Hash: ${presaleMintTransaction.transactionHash}`);
