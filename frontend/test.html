@@ -43,6 +43,17 @@
           font-family: var(--font-primary);
         }
 
+        #mainWrapper { 
+          order:2; 
+          max-width: 57vw; 
+          width: 100%;
+          text-align: center;
+          display: flex;
+          flex-flow: column;
+          align-items: center;
+          margin: auto 0;
+        }
+
         h1 {
           font-family: var(--font-primary);
           font-size: 4.5rem;
@@ -109,14 +120,20 @@
     </style>
   </head>
   <body>
-    <div id="mintContainer" class="mint-container">
-        <h1>Mint Container</h1>
-        <button id="mintButton" class="hero-btn btn">Mint</button>
-    </div>
 
-    <div class="minted-container card show-card hidden">
-        <h1>Minted!</h1>
+    <div id="mainWrapper">
+
+        <div id="mintContainer" class="mint-container">
+            <h1>Mint Container</h1>
+            <button id="mintButton" class="hero-btn btn">Mint</button>
+        </div>
+
+        <div class="minted-container card show-card hidden">
+            <h1>Minted!</h1>
+        </div>
+    
     </div>
+    
     <script src="js/test.js"></script>
   </body>
 </html>
