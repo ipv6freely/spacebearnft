@@ -14,8 +14,8 @@ async function mint() {
   try {
 
       const mintedContainer = document.querySelector('.minted-container');
-      const countdownContainer = document.querySelector('.countdown');
-      countdownContainer.classList.add('hidden');
+      // const countdownContainer = document.querySelector('.countdown');
+      // countdownContainer.classList.add('hidden');
       mintedContainer.classList.remove('hidden');
       console.log("Minuted successfully!");
 
