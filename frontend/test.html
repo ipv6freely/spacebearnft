@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SB NFT Test</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/x-icon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="images/x-icon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="images/x-icon/favicon-16x16.png" />
+    <link rel="manifest" href="images/x-icon/site.webmanifest" />
+    <link rel="stylesheet" href="css/three-dots.min.css" />
+    <style>
+        .btn {
+          display: inline-block;
+          padding: 1rem 2rem;
+          background: var(--btn-bg-color);
+          color: var(--accent-color);
+          font-family: var(--font-secondary);
+          font-style: italic;
+          font-weight: bold;
+          font-size: 1rem;
+          text-align: center;
+          text-transform: capitalize;
+          transition: all 0.3s ease;
+          box-shadow: var(--header-shadow);
+          cursor: pointer;
+          position: relative;
+          text-decoration: none;
+          outline: none;
+          user-select: none;
+        }
+        .btn:hover {
+          box-shadow: none;
+        }
+        .btn:disabled {
+          cursor: default;
+        }
+
+        .wallet-btn, .hero-btn {
+          border-radius: 2rem;
+          margin-top: 1rem;
+          border-color: transparent;
+          width: 15rem;
+        }
+
+        .mint-container {
+          width: 80%;
+          margin-top: 1rem;
+          text-align: center;
+        }
+
+        .hidden {
+          display: none;
+        }
+
+        .card {
+          position: relative;
+          opacity: 0;
+          transform: translateX(100vw);
+          transition: all 0.5s ease-in-out;
+          width: 100%;
+        }
+
+        .show-card {
+          opacity: 1;
+          transform: translateX(0);
+        }
+
+    </style>
+  </head>
+  <body>
+    <div id="mintContainer" class="mint-container">
+        <h1>Mint Container</h1>
+        <button id="mintButton" class="hero-btn btn">Mint</button>
+    </div>
+
+    <div class="minted-container card show-card hidden">
+        <h1>Minted!</h1>
+    </div>
+    <script src="js/test.js"></script>
+  </body>
+</html>
