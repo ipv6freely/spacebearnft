@@ -99,7 +99,7 @@ a {
   height: auto;
 }
 
-.big-spinner {
+#spinner {
   position: relative;
   transform: translate(-50%, -50%) scale(3);
 }
