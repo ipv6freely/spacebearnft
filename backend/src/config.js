@@ -7,8 +7,8 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Space Bear";
-const description = "DESCRIPTIONTOREPLACE";
+const namePrefix = "Space Bear NFT";
+const description = "Space Bear NFT is an awesome new collection by IPv6Freely consisting of 1000 unique tokens, each sporting some really rad colors and gear! Join us on our Discord: https://discord.gg/Xy2MwZTpCS";
 const baseUri = "ipfs://NewUriToReplace";
 
 // If you have selected Solana then the collection starts from 0 automatically
@@ -19,8 +19,8 @@ const shuffleLayerConfigurations = true;
 const debugLogs = false;
 
 const format = {
-  width: 512,
-  height: 512,
+  width: 2000,
+  height: 2000,
   smoothing: false,
 };
 
@@ -33,7 +33,7 @@ const extraMetadata = {
 // ** REQUIRED **
 const AUTH = process.env.NFTPORT_API_KEY; // Set this in the .env file to prevent exposing your API key when pushing to Github
 const LIMIT = 2; // Your API key rate limit
-const CHAIN = 'rinkeby'; // only rinkeby or polygon
+const CHAIN = 'polygon'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
 const CONTRACT_NAME = 'spacebear.xyz';
@@ -41,23 +41,22 @@ const CONTRACT_SYMBOL = 'SB';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x3e1be0108feeaE4B8E7BbA46F92Fe9b7FA3eba8b';
 const TREASURY_ADDRESS = '0x3e1be0108feeaE4B8E7BbA46F92Fe9b7FA3eba8b';
-const MAX_SUPPLY = 5000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
-const MINT_PRICE = 0.001; // USE 8 MATIC. Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
+const MAX_SUPPLY = 1000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
+const MINT_PRICE = 25; // USE 8 MATIC. Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
-
-// REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2022-05-20T00:00:00+00:00";
-
-// OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PRESALE_MINT_START_DATE = "2022-05-05T00:00:00+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
-// const PRESALE_MINT_START_DATE = "2022-05-09T00:00:00+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2022-07-01T00:00:00+00:00";
+const PRESALE_MINT_START_DATE = "2022-06-01T00:00:00+00:00";
 const ROYALTY_SHARE = 1000; // (10%) Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0x3e1be0108feeaE4B8E7BbA46F92Fe9b7FA3eba8b"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
-// const PRESALE_WHITELISTED_ADDRESSES = ["0xfA942EB9998f550F70ECD0Ce7C15104d032a7c24",]; // only update if you want to manually set the whitelisted addresses
-const PRESALE_WHITELISTED_ADDRESSES = ["0xE9588d7c9E6245C59AaAA6a75cEb8F45EDCFFdC0",]; // only update if you want to manually set the whitelisted addresses
-// const PRESALE_WHITELISTED_ADDRESSES = ["0x3e1be0108feeaE4B8E7BbA46F92Fe9b7FA3eba8b",]; // only update if you want to manually set the whitelisted addresses
+
+const PRESALE_WHITELISTED_ADDRESSES = [
+  "0x3e1be0108feeaE4B8E7BbA46F92Fe9b7FA3eba8b",
+  "0x81A9E16b68596B430DeE003CFe787434097f00B1",
+  "0xFF816AFD4A37c3711DA7C0958753117CD9DBe434",
+  "0xf291862024c46D5319510582F92dd131f0a4F01d",
+  ];
 
 // ** OPTIONAL **
 let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually include it
@@ -83,15 +82,15 @@ try {
 // END NFTPort Info
 
 const solanaMetadata = {
-  // symbol: "YC",
-  // seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
-  // external_url: "https://www.youtube.com/c/hashlipsnft",
-  // creators: [
-  //   {
-  //     address: "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
-  //     share: 100,
-  //   },
-  // ],
+  symbol: "SB",
+  seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
+  external_url: "https://spacebear.xyz",
+  creators: [
+    {
+      address: "0x3e1be0108feeaE4B8E7BbA46F92Fe9b7FA3eba8b",
+      share: 100,
+    },
+  ],
 };
 
 const gif = {
