@@ -1,5 +1,5 @@
-const contractAddress = "0xEb561eDCD7b54aC24451f5361c3A915a283cE9cD"; //Replace with your own contract address
-const chain = 'rinkeby'; // rinkeby or polygon
+const contractAddress = "0x4c3Cdb2B7CC88e936f3284bB95710F42442320bB"; //Replace with your own contract address
+const chain = 'polygon'; // rinkeby or polygon
 
 const welcome_h1 = "Welcome";
 const welcome_h2 = "The Space Bear NFT Project is awesome!!";
