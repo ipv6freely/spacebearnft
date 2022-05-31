@@ -52,10 +52,10 @@ const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
 
 const PRESALE_WHITELISTED_ADDRESSES = [
-  "0x3e1be0108feeaE4B8E7BbA46F92Fe9b7FA3eba8b",
-  "0x81A9E16b68596B430DeE003CFe787434097f00B1",
-  "0xFF816AFD4A37c3711DA7C0958753117CD9DBe434",
-  "0xf291862024c46D5319510582F92dd131f0a4F01d",
+  "0x3e1be0108feeaE4B8E7BbA46F92Fe9b7FA3eba8b", // IPv6Freely
+  "0x81A9E16b68596B430DeE003CFe787434097f00B1", // Masterolive
+  "0xFF816AFD4A37c3711DA7C0958753117CD9DBe434", // Cisxy
+  "0xf291862024c46D5319510582F92dd131f0a4F01d", // kaique
   ];
 
 // ** OPTIONAL **
