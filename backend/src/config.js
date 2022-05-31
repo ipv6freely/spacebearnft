@@ -44,8 +44,8 @@ const TREASURY_ADDRESS = '0x3e1be0108feeaE4B8E7BbA46F92Fe9b7FA3eba8b';
 const MAX_SUPPLY = 1000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
 const MINT_PRICE = 20; // USE 8 MATIC. Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
-const PUBLIC_MINT_START_DATE = "2022-07-01T00:00:00+00:00";
-const PRESALE_MINT_START_DATE = "2022-06-01T00:00:00+00:00";
+const PUBLIC_MINT_START_DATE = "2022-07-01T00:00:00-07:00";
+const PRESALE_MINT_START_DATE = "2022-06-01T00:00:00-07:00";
 const ROYALTY_SHARE = 1000; // (10%) Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0x3e1be0108feeaE4B8E7BbA46F92Fe9b7FA3eba8b"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
@@ -59,7 +59,7 @@ const PRESALE_WHITELISTED_ADDRESSES = [
   ];
 
 // ** OPTIONAL **
-let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually include it
+let CONTRACT_ADDRESS = "0x4c3Cdb2B7CC88e936f3284bB95710F42442320bB"; // If you want to manually include it
 
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
